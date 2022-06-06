@@ -142,11 +142,11 @@ main{
 }
 .toys{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     grid-template-columns: 2fr 2fr;
     justify-content:center;
     grid-gap:10px;
-    width: 50px;
+    
 }
 .toys>div{
     text-align: center;
